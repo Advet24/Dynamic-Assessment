@@ -1,0 +1,55 @@
+<div>
+  <h1>Add Assessment</h1>
+  <h2 style="font-family: Arial, sans-serif;">Patient Full Name: {{ fullName }} (DOB: {{ dob | date : 'dd/MM/yyyy' }})</h2>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Select Assessment</mat-label>
+    <mat-select (selectionChange)="getAssessmentDetails($event.value.id)">
+      <mat-option *ngFor="let assessment of assessments" [value]="assessment">
+        {{ assessment.name }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <div *ngIf="assessmentDetails">
+    <h2>Assessment Details</h2>
+    <mat-card *ngFor="let detail of assessmentDetails.questions">
+      <mat-card-content>
+        <mat-form-field appearance="fill">
+          <mat-label>Question</mat-label>
+          <input matInput [(ngModel)]="detail.questions" placeholder="Enter question">
+        </mat-form-field>
+        <!-- <mat-form-field appearance="fill">
+          <mat-label>Response Type</mat-label>
+          <input matInput [(ngModel)]="detail.responseType" placeholder="Enter response type">
+        </mat-form-field> -->
+        <ng-container *ngIf="detail.responseType">
+          <ng-container [ngSwitch]="detail.responseType">
+            <ng-container *ngSwitchCase="'Text'">
+              <mat-form-field appearance="fill">
+                <mat-label>Answer</mat-label>
+                <input matInput [(ngModel)]="detail.answer" placeholder="Enter answer">
+              </mat-form-field>
+            </ng-container>
+            <ng-container *ngSwitchCase="'TextArea'">
+              <mat-form-field appearance="fill">
+                <mat-label>Answer</mat-label>
+                <textarea matInput [(ngModel)]="detail.answer" placeholder="Enter answer"></textarea>
+              </mat-form-field>
+            </ng-container>
+            <ng-container *ngSwitchCase="'Radio'"> <!-- Adding radio button case -->
+              <mat-radio-group [(ngModel)]="detail.answer">
+                <mat-radio-button value="Yes">Yes</mat-radio-button>
+                <mat-radio-button value="No">No</mat-radio-button>
+              </mat-radio-group>
+            </ng-container>
+           
+          </ng-container>
+        </ng-container>
+      </mat-card-content>
+      <mat-divider></mat-divider>
+    </mat-card>
+    <!-- Common "Save" button -->
+    <button mat-raised-button color="primary" (click)="saveAllAnswers()">Save All</button>
+  </div>
+  

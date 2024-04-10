@@ -1,0 +1,66 @@
+D:\Advet Tomar\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Advet Tomar\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.dll
+D:\Advet Tomar\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Advet Tomar\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advet Tomar\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Advet Tomar\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Advet Tomar\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Advet Tomar\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.dll
+D:\Advet Tomar\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Advet Tomar\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Advet Tomar\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\adwaittomar\Desktop\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\adwaittomar\Desktop\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\adwaittomar\Desktop\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\adwaittomar\Desktop\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adwaittomar\Desktop\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\adwaittomar\Desktop\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\adwaittomar\Desktop\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\adwaittomar\Desktop\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\adwaittomar\Desktop\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\adwaittomar\Desktop\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\adwaittomar\Desktop\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.dll
+D:\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.dll
+D:\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\adwaittomar\Downloads\Dynamic Assisment\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\adwaittomar\Downloads\Dynamic Assisment\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\adwaittomar\Downloads\Dynamic Assisment\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\adwaittomar\Downloads\Dynamic Assisment\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adwaittomar\Downloads\Dynamic Assisment\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\adwaittomar\Downloads\Dynamic Assisment\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\adwaittomar\Downloads\Dynamic Assisment\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\adwaittomar\Downloads\Dynamic Assisment\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\adwaittomar\Downloads\Dynamic Assisment\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\adwaittomar\Downloads\Dynamic Assisment\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\adwaittomar\Downloads\Dynamic Assisment\Dynamic Assisment\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.dll
+D:\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.pdb
+D:\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.dll
+D:\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.pdb
+D:\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\adwaittomar\Downloads\today\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\adwaittomar\Downloads\today\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\adwaittomar\Downloads\today\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\adwaittomar\Downloads\today\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adwaittomar\Downloads\today\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\adwaittomar\Downloads\today\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\adwaittomar\Downloads\today\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\adwaittomar\Downloads\today\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\adwaittomar\Downloads\today\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\adwaittomar\Downloads\today\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\adwaittomar\Downloads\today\today\Dynamic Assisment\Backend\Dynamic_Assesment\Domain\obj\Debug\net7.0\ref\Domain.dll

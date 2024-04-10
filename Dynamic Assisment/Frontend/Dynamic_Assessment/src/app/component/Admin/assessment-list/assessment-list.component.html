@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="header">
+        <h2>Assessment</h2>
+        <button mat-raised-button color="primary" routerLink="/addassessment">
+            Add Assessment
+        </button>
+        
+   </div>
+   <br>
+   <div class="assessment-list">
+       <mat-card *ngFor="let assessment of Assessment" class="card">
+           <mat-card-header>
+               <div mat-card-avatar class="card-avatar"></div>
+               <mat-card-title>{{ assessment.name }}</mat-card-title>
+           </mat-card-header>
+           <mat-card-content>
+               <!-- <p>Assessment ID: {{ assessment.id }}</p> -->
+          
+           </mat-card-content>
+           <mat-card-actions>
+               <button mat-raised-button color="accent"  (click)="editAssessment(assessment.id)" >Edit</button>
+               <button mat-icon-button color="warn" (click)="deleteAssessment(assessment.id)">
+                <mat-icon>delete</mat-icon>
+            </button>
+           </mat-card-actions>
+       </mat-card>
+   </div>
+   <button mat-raised-button color="accent" routerLink="/patient">
+    Go to Patient
+</button>
+</div>

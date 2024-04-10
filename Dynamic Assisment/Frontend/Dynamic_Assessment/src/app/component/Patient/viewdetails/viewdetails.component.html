@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="content">
+    <h1>Patient Details</h1>
+    <p>Patient Full Name: {{ fullName }} (DOB: {{ dob | date : 'dd/MM/yy' }})</p>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Select Assessment</mat-label>
+      <mat-select (selectionChange)="getAssessmentDetails($event.value.id)">
+        <mat-option *ngFor="let assessment of assessments" [value]="assessment">
+          {{ assessment.name }} - {{assessment.assessment_date | date: 'mediumDate' }} - {{ assessment.assessment_date | date: 'shortTime' }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div class="assessment-details" *ngIf="assessmentDetails">
+      <h2>Assessment Details</h2>
+      <div class="table-container">
+        <table mat-table [dataSource]="assessmentDetails" class="mat-elevation-z8">
+          <ng-container matColumnDef="question">
+            <th mat-header-cell *matHeaderCellDef> Question </th>
+            <td mat-cell *matCellDef="let detail"> {{ detail.question }} </td>
+          </ng-container>
+          <ng-container matColumnDef="response">
+            <th mat-header-cell *matHeaderCellDef> Response </th>
+            <td mat-cell *matCellDef="let detail"> {{ detail.response }} </td>
+          </ng-container>
+          <ng-container matColumnDef="date">
+            <th mat-header-cell *matHeaderCellDef> Date </th>
+            <td mat-cell *matCellDef="let detail"> {{ detail.date | date: 'mediumDate' }} {{ detail.date | date: 'shortTime' }} </td>
+          </ng-container>
+          
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let detail; columns: displayedColumns;"></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+  
+  

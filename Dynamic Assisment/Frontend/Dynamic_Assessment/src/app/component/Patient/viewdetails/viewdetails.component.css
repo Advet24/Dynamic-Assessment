@@ -1,0 +1,77 @@
+
+
+.mat-form-field {
+  width: 100%;
+}
+
+.mat-select {
+  width: 100%;
+}
+
+.assessment-details {
+  margin-top: 20px;
+}
+
+.assessment-details h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.question {
+  font-weight: bold;
+}
+
+.response {
+  margin-left: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.content {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.mat-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mat-table th,
+.mat-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.mat-table th {
+  background-color: #f2f2f2;
+}
+
+.mat-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.mat-table tr:hover {
+  background-color: #ddd;
+}
+

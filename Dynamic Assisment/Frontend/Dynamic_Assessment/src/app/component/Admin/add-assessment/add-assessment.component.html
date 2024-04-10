@@ -1,0 +1,42 @@
+<form class="container" [formGroup]="form">
+    <div>
+        <h3>Assessment Name</h3>
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Enter" formControlName="name" />
+        </mat-form-field>
+        <section class="example-section">
+            <mat-checkbox class="example-margin" formControlName="isScorable">Is Scorable</mat-checkbox>
+        </section>
+    </div>
+    <button mat-raised-button color="primary" type="button" (click)="addassess()">Add Question</button>
+
+    <div formArrayName="questions">
+        <div class="questions">
+            <mat-card class="card-class" *ngFor="let questionGroup of getQuestion.controls; let i=index"
+                [formGroupName]="i">
+                <mat-card-header>
+                    <mat-card-title>
+                        <mat-icon>dehaze</mat-icon> Question {{ i + 1 }}
+                    </mat-card-title>
+                </mat-card-header>
+
+                <mat-card-content>
+                    <h4>Response Type</h4>
+                    <mat-select formControlName="responseType">
+                        <mat-option *ngFor="let type of response" [value]="type">{{ type }}</mat-option>
+                    </mat-select>
+                    
+                </mat-card-content>
+
+                <mat-card-footer>
+                    <section class="example-section">
+                        <mat-checkbox formControlName="isRequired" class="example-margin">Is Required</mat-checkbox>
+                    </section>
+                </mat-card-footer>
+            </mat-card>
+        </div>
+    </div>
+    <mat-card-actions>
+        <button mat-raised-button color="primary" type="button" (click)="onSubmit()">Save</button>
+    </mat-card-actions>
+</form>

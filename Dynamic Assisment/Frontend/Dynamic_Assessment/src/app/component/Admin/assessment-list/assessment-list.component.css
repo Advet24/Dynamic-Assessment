@@ -1,0 +1,33 @@
+.contianer{
+    width: 800px;
+    margin: 50px 200px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25pc;
+    padding: 5%;
+}
+.header p {
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.header button{
+    margin-right: 25pc;
+}
+.card{
+    padding: 0 30px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+mat-card{
+    width: 900px;
+    margin-left: 420px;
+}

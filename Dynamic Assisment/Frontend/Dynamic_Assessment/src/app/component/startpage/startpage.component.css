@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set height to full viewport height */
+    background-color: lightgoldenrodyellow; /* Set background color */
+  }
+  
+  .content {
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .buttons {
+    margin-top: 50px; /* Add some space between buttons and heading */
+  }
+  
+  h1 {
+    font-size: 54px;
+    color: #007bff;
+  }
+  
+  button {
+    padding: 8px 56px; /* Set padding for the buttons */
+    font-size: 34px; /* Set the font size of the buttons */
+  }
+  

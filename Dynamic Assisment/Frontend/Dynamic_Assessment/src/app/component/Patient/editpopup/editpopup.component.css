@@ -1,0 +1,42 @@
+/* Container for the edit patient form */
+.edit-patient-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Labels for form fields */
+  .edit-patient-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Input fields */
+  .edit-patient-container input {
+    width: calc(100% - 24px); /* Adjust width to accommodate label */
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Buttons */
+  .edit-patient-container button {
+    margin-right: 10px;
+  }
+  
+  /* Primary button */
+  .edit-patient-container button[color="primary"] {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Warn button */
+  .edit-patient-container button[color="warn"] {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  

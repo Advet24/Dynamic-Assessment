@@ -1,0 +1,22 @@
+<div class="container">
+  <h2>Edit Assessment</h2>
+  <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="fill">
+      <mat-label>Assessment Name</mat-label>
+      <input matInput formControlName="name" placeholder="Enter Assessment Name">
+    </mat-form-field>
+    <div formArrayName="questions">
+      <div *ngFor="let question of questions.controls; let i=index">
+        <mat-form-field appearance="fill">
+          <mat-label>Question {{ i + 1 }}</mat-label>
+          <input matInput formControlName="{{i}}" placeholder="Enter Question">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+          <mat-label>Response {{ i + 1 }}</mat-label>
+          <input matInput formControlName="{{i + questions.length}}" placeholder="Enter Response">
+        </mat-form-field>
+      </div>
+    </div>
+    <button mat-raised-button color="primary" type="submit">Save</button>
+  </form>
+</div>

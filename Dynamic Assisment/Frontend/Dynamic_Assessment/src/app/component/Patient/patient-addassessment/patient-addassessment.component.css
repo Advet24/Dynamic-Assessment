@@ -1,0 +1,62 @@
+h1 {
+    font-size: 24px; /* Set font size */
+    color: #007bff; /* Set text color */
+    margin-top: 20px; /* Add top margin */
+    font-weight: bold; /* Set font weight to bold */
+    text-align: center; /* Center the text horizontally */
+  }
+
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; 
+}
+
+
+.custom-card {
+  margin-bottom: 20px;
+  width: 400px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* styles.css */
+/* styles.css */
+.mat-card {
+  margin-bottom: 20px;
+}
+
+.mat-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.mat-form-field {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Add this CSS to your component's CSS file */
+.custom-input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.custom-button {
+  margin-top: 10px;
+}
+
+/* Add more custom styles as needed */
+
+
+
+
